@@ -1,8 +1,7 @@
 ####  This is an sample playbook file to install a wordpress site in an Ec2 instance
 ```
----
 vim wordpressinstallation.yml
-
+---
 - name: "Wordpress install on amazon ec2"
   hosts: all
   become: yes
